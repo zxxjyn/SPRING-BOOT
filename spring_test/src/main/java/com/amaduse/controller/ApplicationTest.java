@@ -10,17 +10,11 @@ public class ApplicationTest {
     private String name;
     @Value("${my.age}")
     private int age;
-    @Value("${test.value}")
-    private String value;
+
 
     //只用输入方法名，访问是url会自动的加上 '/'
     @RequestMapping("showMessage")
     public String showProperties(){
         return name+":"+age;
-    }
-
-    @RequestMapping("showTest")
-    public String showTestValue(){
-        return value;
     }
 }
