@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: w.m.vker.demo.zuul_server.EurekalServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in w.m.vker.demo.zuul_server.EurekalServerApplicationTests
+initializationError(w.m.vker.demo.zuul_server.EurekalServerApplicationTests)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+

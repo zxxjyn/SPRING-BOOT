@@ -5,6 +5,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -14,7 +15,7 @@ public class PersonController {
     @Autowired
     Person person;
     @ApiOperation(value = "查看person信息", notes = "查看person信息")
-    @RequestMapping("/showPersonInfoStr")
+    @RequestMapping(value = "/showPersonInfoStr",method = RequestMethod.GET)
     public String showPersonInfoStr(){
         System.out.println(person.getUuid());
         System.out.println(person.getMax());

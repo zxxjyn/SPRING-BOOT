@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: w.m.vker.demo.eurekaserver.EurekaServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.533 s - in w.m.vker.demo.eurekaserver.EurekaServerApplicationTests
